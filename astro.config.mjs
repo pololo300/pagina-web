@@ -25,4 +25,9 @@ export default defineConfig({
 			],
 		}),
 	],
+	vite: {
+		preview: {
+		  allowedHosts: ['pros.ddns.net']
+		}
+	  }
 });
