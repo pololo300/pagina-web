@@ -27,7 +27,7 @@ export default defineConfig({
 	],
 	vite: {
 		preview: {
-		  allowedHosts: ['pros.ddns.net']
+		  allowedHosts: ['polros.duckdns.org']
 		}
 	  }
 });

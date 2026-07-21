@@ -22,8 +22,9 @@
     ```
 *   **Iniciar el servei de producció**
     ```bash
-    pm2 start npx --name "astro-prod" -- preview --host 0.0.0.0
+    pm2 start npx --name "astro-prod" -- astro preview --host 0.0.0.0
     ```
+
 *   **Actualitzar canvis en producció**
     ```bash
     pm2 restart astro-prod
